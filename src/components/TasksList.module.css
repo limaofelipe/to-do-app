@@ -1,0 +1,58 @@
+.tasksHeader{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.concludedTasks,
+.createdTasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.concludedTasks h2{
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.createdTasks h2 { 
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.concludedTasks span,
+.createdTasks span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-weight: bold;
+
+  padding-block: 0.125rem;
+  padding-inline: 0.5rem;
+  border-radius: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.emptyTask {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--gray-300);
+  text-align: center;
+
+}
+.emptyTask p {
+  font-weight: 700;
+}
